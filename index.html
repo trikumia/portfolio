@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <script  type="text/javascript" src="./script.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <img id="logo" src="./resources/images/LOGO.png" alt="logo">
+            </header>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#about-me">ABOUT</li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="/projects.html">PROJECTS</li>
+                    <li><a href="#clients">CLIENTS</li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <nav class="dropdown" title="dropdown-menu">
+                <button class="dropbtn" id="darkmode-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <ul class="dropdown-content"">
+                    <a href="#about-me">ABOUT</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="/projects.html">PROJECTS</a>
+                    <a href="#clients">CLIENTS</a>
+                    <a href="/contact.html">CONTACT</a>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <h1>Geroulakou Katerina</h1>
+            <section class="main">
+                <section id="about-me">
+                    <h2>About Me</h2>
+                    <p>Hello! I am Katerina from Greece and i study Full Stack Engineer on codecademy.<br>
+                    I have been working on with some projects by myself, so any advise is helpfull.</p>
+                    <p>From 2016 i am partner in a coffee/bar place in Athens.</p>
+                    <p>In my free time i like to read books, solve puzzles and i love gardening!</p>
+                        
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Git</li>
+                        <li>Node</li>
+                        <li>Unity</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="main">
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>Eyecon Films Website</li>
+                        <img id="image-project" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="./resources/images/eyeconfilms.png" alt="eyecon films project">
+                        <p>This is my first big project of a filming company.<br>
+                        In this website you can find information about the company, their clients and projects.<br>
+                        I have created a menu that leads you to other pages. I also cerated a form where you can contact with.</p>
+                        <p><span>Created with:</span> HTML, CSS, Javascript</p>
+                        <li>Kioumprik Website</li>
+                        <img id="image-project" onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="" alt="kioumprik project">
+                        <p>This is the second project I have been working on.<br>
+                        It is for a coffee/bar place in Athens.<br></p>
+                        <p><span>Created with:</span> HTML, CSS, Javascript</p>
+                    </ul>
+                </section>
+                <section id="clients">
+                    <h2>Clients</h2>
+                    <ol>
+                        <li>Eyecon Films</li>
+                        <li>Kioumprik Cooperative</li>
+                        <li>Street Verse</li>
+                        <li>8Lab Prints</li>
+                        <li>Nove Graphics</li>
+                        <li>Oxybrain</li>
+
+                    </ol>
+                </section>
+            </section>
+
+        </main>
+        <footer>
+            <section id="buttons">
+                <button id="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+            </section>
+            
+            <p>Made with <span>♡</span> in Greece</p>
+        </footer>
+        
+    </body>
+</html>
