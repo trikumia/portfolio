@@ -2,7 +2,7 @@ Portfolio
 =
 
 **Description**
-\This is my portfolio project from codecademy
+\ This is my portfolio project from codecademy
 
 **Features**
 1. create clients page
