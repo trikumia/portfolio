@@ -1,11 +1,11 @@
 Portfolio
 =
 
-** Description **
+**Description**
 This is my portfolio project from codecademy
 
-** Features **
-create clients page
+**Features**
+1. create clients page
 
-** Technologies **
+**Technologies**
 *HTML / CSS / JAVASCRIPT*
