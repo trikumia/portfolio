@@ -1,7 +1,6 @@
 Portfolio
 =
 
-**Description** \
 This is my portfolio project from codecademy
 
 **Features**
