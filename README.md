@@ -1,10 +1,11 @@
-=Portfolio
+Portfolio
+=
 
-Description
+** Description **
 This is my portfolio project from codecademy
 
-Features
+** Features **
 create clients page
 
-Technologies
-HTML / CSS / JAVASCRIPT
+** Technologies **
+*HTML / CSS / JAVASCRIPT*
