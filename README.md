@@ -1,7 +1,7 @@
 Portfolio
 =
 
-**Description**
+**Description** \newline
 This is my portfolio project from codecademy
 
 **Features**
