@@ -1,8 +1,8 @@
 Portfolio
 =
 
-**Description** \newline
-This is my portfolio project from codecademy
+**Description**
+\This is my portfolio project from codecademy
 
 **Features**
 1. create clients page
