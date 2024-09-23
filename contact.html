@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <script  type="text/javascript" src="./script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img id="logo" src="./resources/images/LOGO.png" alt="logo">
+            </header>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="/main.html">ABOUT</li>
+                    <li><a href="/main.html">SKILLS</a></li>
+                    <li><a href="/projects.html">PROJECTS</li>
+                    <li><a href="/main.html">CLIENTS</li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <nav class="dropdown" title="dropdown-menu" style="float: right;">
+                <button class="dropbtn" >
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="dropdown-content"">
+                    <a href="/main.html">ABOUT</a>
+                    <a href="/main.html">SKILLS</a>
+                    <a href="/projects.html">PROJECTS</a>
+                    <a href="/main.html">CLIENTS</a>
+                    <a href="#contact">CONTACT</a>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <h1>Geroulakou Katerina</h1>
+            <h2>Contact</h2>
+            <section id="one">
+                <section id="contact">
+                <p>
+                    <span>email:</span> geroulakou.k@gmail.com<br>
+                    <span>mobile:</span> +30 697 9971 386<br>
+                    <span>github:</span>
+                </p>
+                </section>
+            </section>
+
+        </main>
+        <footer>
+            <section id="buttons">
+                <button id="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+            </section>
+            <p>Made with <span>♡</span> in Greece</p>
+
+        </footer>
+
+    </body>
+</html>
